@@ -3150,11 +3150,11 @@ case 'jarak':
   ini_txt += `❍┤ Jalan Kaki : ${x.jalan_kaki}\n`
   ini_txt += `  ╰───────────────❏\n`
   reply(ini_txt)
-  await limitAdd(sender) 
     })
    .catch((err) => {
    reply(`Error, Mungkin Nama Kota Tidak Di Temukan`)
     })
+    await limitAdd(sender) 
     break
 				case 'wiki':
 			        
